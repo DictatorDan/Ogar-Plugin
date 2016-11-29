@@ -11,7 +11,7 @@ module.exports = function(str,main,log) {
   }
   
   setInterval(function() {
-  main.broadcast(message,"[" + main.scname + "]",{})
+  main.broadcast(message,main._chatIntName,main._chatIntColor)
   
   },1000 * time)
 }
