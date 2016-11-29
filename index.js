@@ -1,12 +1,15 @@
-module.exports = {
+eeemodule.exports = {
 // [General]
-name: "BotInteligenceLevel", // Name of plugin REQUIRED
-author: "DaFatDan", // author REQUIRED
-description: '', // Desciprtion
-minVersion: '', // minimum version requirements (optional)
-version:  '', // version REQUIRED
-addToHelp: false, // add to help
- commands: false, // commands
+name: "ChatController", // Name of plugin REQUIRED
+author: "Dandevelopment", // author REQUIRED
+description: 'Lets you set chat messages appear in cycles.', // Desciprtion
+minVersion: '3.2.5', // minimum version requirements (optional)
+version:  '1.0.0', // version REQUIRED
+addToHelp: ["setmsginterval [message] [interval]"], // add to help
+ commands: {
+  setmsginterval: require('./msg.js')
+  
+ }, // commands
  configFile: false, //config file
 // [Functions]
 init: function (data,configs) {
