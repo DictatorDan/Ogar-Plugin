@@ -10,9 +10,18 @@ addToHelp: ["setmsginterval [message] [interval]"], // add to help
   setmsginterval: require('./msg.js')
   
  }, // commands
- configFile: false, //config file
+ configFile: 'config.ini', //config file
 // [Functions]
 init: function (data,configs) {
+ data.main._intchatName = configs.name
+ var a = configs.color
+ if (a) a = a.split(",")
+ if (a) a = {
+  r:a[0],
+  b:a[1],
+  g:a[2]
+ }
+ data.main._intChatColor = a
   // init, Used to do stuff such as overriding things
 }
 }
