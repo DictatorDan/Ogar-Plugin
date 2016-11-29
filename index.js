@@ -1,4 +1,4 @@
-eeemodule.exports = {
+module.exports = {
 // [General]
 name: "ChatController", // Name of plugin REQUIRED
 author: "Dandevelopment", // author REQUIRED
