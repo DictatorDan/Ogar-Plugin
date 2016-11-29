@@ -1,7 +1,7 @@
 module.exports = {
 // [General]
-name: "", // Name of plugin REQUIRED
-author: "", // author REQUIRED
+name: "BotInteligenceLevel", // Name of plugin REQUIRED
+author: "DaFatDan", // author REQUIRED
 description: '', // Desciprtion
 minVersion: '', // minimum version requirements (optional)
 version:  '', // version REQUIRED
