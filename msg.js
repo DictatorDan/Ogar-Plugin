@@ -14,4 +14,5 @@ module.exports = function(str,main,log) {
   main.broadcast(message,main._chatIntName,main._chatIntColor)
   
   },1000 * time)
+   log("gre{[OpenAgar]} The interval was set!".styleMe())
 }
