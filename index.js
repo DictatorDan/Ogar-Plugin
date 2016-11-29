@@ -13,7 +13,7 @@ addToHelp: ["setmsginterval [message] [interval]"], // add to help
  configFile: 'config.ini', //config file
 // [Functions]
 init: function (data,configs) {
- data.main._intchatName = configs.name
+ data.main._intChatName = configs.name
  var a = configs.color
  if (a) a = a.split(",")
  if (a) a = {
